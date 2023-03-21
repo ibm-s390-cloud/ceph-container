@@ -1,1 +1,1 @@
-#rpm -q __DAEMON_PACKAGES__
+apt-get check
