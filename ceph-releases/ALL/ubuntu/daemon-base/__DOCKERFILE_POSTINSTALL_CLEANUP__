@@ -1,0 +1,2 @@
+echo 'Postinstall cleanup' && \
+ ( apt clean )

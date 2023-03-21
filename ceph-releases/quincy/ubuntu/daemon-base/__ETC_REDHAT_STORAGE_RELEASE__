@@ -1,0 +1,2 @@
+# Editing /etc/redhat-storage-server release file
+RUN echo "IBM zSystems Ceph Storage Quincy (Container)" > /etc/ceph-storage-release

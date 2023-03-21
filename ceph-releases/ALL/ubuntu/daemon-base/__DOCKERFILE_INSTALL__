@@ -1,0 +1,2 @@
+apt update && \
+apt install -y util-linux python3-saml python3-setuptools udev device-mapper __CEPH_BASE_PACKAGES__
