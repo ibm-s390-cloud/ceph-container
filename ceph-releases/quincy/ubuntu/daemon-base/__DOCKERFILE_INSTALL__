@@ -1,2 +1,2 @@
 apt update && \
-apt install -y util-linux python3-setuptools udev __CEPH_BASE_PACKAGES__
+TZ=Europe/Berlin apt install -y util-linux python3-setuptools udev __CEPH_BASE_PACKAGES__
