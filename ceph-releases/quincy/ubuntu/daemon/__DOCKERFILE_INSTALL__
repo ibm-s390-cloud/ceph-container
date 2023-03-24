@@ -1,5 +1,5 @@
-      DEBIAN_FRONTEND=noninteractive apt update && \
-      DEBIAN_FRONTEND=noninteractive apt install -y \
+      DEBIAN_FRONTEND=noninteractive apt-get update && \
+      DEBIAN_FRONTEND=noninteractive apt-get install -y \
         wget unzip uuid-runtime python-setuptools udev dmsetup && \
       apt-get install -y --no-install-recommends __DAEMON_PACKAGES__ && \
       apt-get clean && \
