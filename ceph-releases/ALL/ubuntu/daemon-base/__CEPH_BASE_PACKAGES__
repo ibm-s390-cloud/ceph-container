@@ -25,4 +25,5 @@
         __CEPH_EXPORTER_PACKAGE__ \
 #        libstoragemgmt \
 #        systemd-udev \
-        sg3-utils
+        sg3-utils \
+        apt-utils
