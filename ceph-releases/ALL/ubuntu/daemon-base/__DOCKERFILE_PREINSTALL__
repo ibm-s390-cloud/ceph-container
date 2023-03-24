@@ -1,1 +1,4 @@
-#RUN rm -f /etc/yum.repos.d/ubi.repo
+    RUN DEBIAN_FRONTEND=noninteractive apt update && \
+    DEBIAN_FRONTEND=noninteractive apt dist-upgrade && \
+    DEBIAN_FRONTEND=noninteractive apt install -yy --no-install-recommends \
+        gnupg curl apt-transport-https ca-certificates

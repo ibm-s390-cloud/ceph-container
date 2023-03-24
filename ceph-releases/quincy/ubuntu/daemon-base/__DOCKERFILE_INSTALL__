@@ -1,2 +1,4 @@
-apt update && \
-DEBIAN_FRONTEND=noninteractive TZ=Europe/Berlin apt install -y util-linux python3-setuptools udev __CEPH_BASE_PACKAGES__
+    DEBIAN_FRONTEND=noninteractive apt dist-upgrade && \
+    DEBIAN_FRONTEND=noninteractive apt update && \
+    DEBIAN_FRONTEND=noninteractive TZ=Europe/Berlin apt install -yy \
+        util-linux python3-setuptools udev __CEPH_BASE_PACKAGES__
