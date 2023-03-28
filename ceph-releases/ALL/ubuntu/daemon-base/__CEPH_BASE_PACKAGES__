@@ -26,4 +26,5 @@
 #        libstoragemgmt \
 #        systemd-udev \
         sg3-utils \
-        apt-utils
+        apt-utils \
+        python3-asyncssh
