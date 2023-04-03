@@ -27,4 +27,5 @@
 #        systemd-udev \
         sg3-utils \
         apt-utils \
-        python3-asyncssh
+        python3-asyncssh \
+        jinja2
