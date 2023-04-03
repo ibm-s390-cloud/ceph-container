@@ -1,0 +1,10 @@
+# Atomic specific labels
+LABEL version="16"
+
+# Build specific labels
+LABEL com.ibm.component="zceph-container"
+LABEL name="zceph"
+LABEL description="IBM zSystems Ceph Storage"
+LABEL summary="Provides the latest Red Hat Ceph Storage Pacific on Ubuntu 21.04 zSystems."
+LABEL io.k8s.display-name="IBM Ceph Storage Pacific on Ubuntu 21.04 zSystems"
+LABEL io.openshift.tags="zceph ceph"
