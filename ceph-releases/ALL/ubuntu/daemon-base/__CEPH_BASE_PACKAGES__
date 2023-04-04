@@ -28,4 +28,4 @@
         sg3-utils \
         apt-utils \
         python3-asyncssh \
-        jinja2
+        python3-jinja2
